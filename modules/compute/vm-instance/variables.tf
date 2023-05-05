@@ -117,12 +117,12 @@ variable "deployment_name" {
   description = "Name of the deployment, will optionally be used name resources according to `name_prefix`"
   type        = string
 }
-
+/*
 variable "labels" {
   description = "Labels to add to the instances. Key-value pairs."
   type        = map(string)
 }
-
+*/
 variable "service_account" {
   description = "Service account to attach to the instance. See https://www.terraform.io/docs/providers/google/r/compute_instance_template.html#service_account."
   type = object({
